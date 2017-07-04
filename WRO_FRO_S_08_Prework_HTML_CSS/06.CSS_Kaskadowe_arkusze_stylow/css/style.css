@@ -1,0 +1,19 @@
+body{
+  background: blue;
+}
+
+#p1{
+  color: green;
+}
+
+#p2{
+  color: purple;
+}
+
+#p3{
+  color: brown;
+}
+
+.block{
+    border: 2px solid black;
+}

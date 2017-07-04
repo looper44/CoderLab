@@ -1,0 +1,38 @@
+#span1{
+  background-color: red;
+}
+#span2{
+  background-color: blue;
+}
+#span3{
+  color: lightblue;
+}
+#span4{
+  color:gray;
+}
+#span5{
+  color:pink;
+}
+#div1{
+  background-color: rgba(156,102,135,.25);
+}
+#div2{
+  background-color: rgba(0,136,153,.25);
+}
+.div{
+  background-color: hsl(0,100%,50%);
+  width: 20px;
+  height: 20px;
+}
+.div1{
+  background-color: lightblue;
+  width: 200px;
+}
+#p1{
+  background-color: #bbd3db;
+  width: 50%;
+}
+#p2{
+  background-color: #f9d8fb;
+  width: 20%;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+    body{
+      font-family: serif;
+    }
+    label{
+      color: gray;
+    }
+    .label1{
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    </style>
+
+</head>
+<body>
+  <form>
+    <label class="label1" for="name">Your name</label><br />
+    <input type="text" name="name" placeholder="Your name"><br />
+    <label class="label1" for="email">Your E-mail Address</label><br />
+    <input type="text" name="email" placeholder="Your e-mail"><br />
+    <label class="label1" for="message">Your message</label><br />
+    <textarea cols="50" rows="10" name="message"
+      placeholder="Please describe your question or comment"></textarea>
+  </form><br /><br />
+  <form>
+    <h1>Run your inteligent robo-car</h1>
+    <h3>Select Country:</h3>
+    <label for="pl">Poland:</label>
+    <input type="checkbox" name="pl" checked>
+    <label for="us">US:</label>
+    <input type="checkbox" name="us">
+    <label for="sm">San Marino:</label>
+    <input type="checkbox" name="sm">
+    <br />
+    <h3>Select Car:</h3>
+    <label for="bmw">BMW:</label>
+    <input type="checkbox" name="bmw" checked>
+    <label for="jag">Jaguar</label>
+    <input type="checkbox" name="jag">
+    <br />
+    <h3>When?</h3>
+    <label for="date">Date:</label>
+    <input type="date" name="date" placeholder="dd.mm.rrrr">
+    <br />
+    <h3>Start engine.</h3>
+    <label for="pass">Enter password*:</label>
+    <input type="password" name="pass">
+    <br /><br />
+    <input type="submit" value="RUN YOUR CAR">
+</body>
+</html>

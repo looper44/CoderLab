@@ -1,0 +1,11 @@
+div{
+  background: rgba(147,206,222,1);
+}
+#obrazek{
+  background-color: #ffffff;
+  background-image: url("http://kaboompics.com/cache/c/c/1/7/d/cc17d9f8478060849bdc7f3fbda6c54a473e8ff2.jpeg?version=v17");
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

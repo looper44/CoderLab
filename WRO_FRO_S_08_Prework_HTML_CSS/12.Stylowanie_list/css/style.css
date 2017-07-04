@@ -1,0 +1,8 @@
+ul{
+  list-style-type: square;
+  color: #116493;
+}
+li{
+  display: inline-block;
+  margin-right: 20px;
+}
